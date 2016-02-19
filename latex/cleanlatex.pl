@@ -11,7 +11,8 @@ my $all = 0;
 my $basic = 0;
 my $help = 0;
 
-my @BasicExtensions = ('tex~','bib~','aux','log','toc','lof','lot','bbl','blg','out','idx','ind','ilg','nav', 'snm');
+my @BasicExtensions =
+('tex~','bib~','aux','log','toc','lof','lot','bbl','blg','out','idx','ind','ilg','ent','nav', 'snm');
 my @ExtraExtensions = ('ps','pdf','dvi');
 my @UserExtensions = ('synctex.gz');
 
